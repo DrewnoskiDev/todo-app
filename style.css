@@ -1,0 +1,70 @@
+/* Apply styles to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+/* Style the main container */
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+}
+
+/* Layout for input field and button */
+.input-section {
+    display:flex;
+    gap: 10px;
+}
+
+/* Style for the input field */
+input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Style for the "Add Task" button */
+button {
+    padding: 10px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Remove default bullet points for list */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style for each task in the list */
+li {
+    background: #eee;
+    padding: 10px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+/* Style for delete button inside task item */
+li .delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
